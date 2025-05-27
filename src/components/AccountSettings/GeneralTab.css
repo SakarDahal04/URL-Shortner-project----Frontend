@@ -1,0 +1,97 @@
+.tabContent {
+    color: red;
+  }
+  
+  .profilePic {
+    display: flex;
+    align-items: start;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.01px solid slategray;
+  }
+  
+  .profilePic img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  
+  .profilePic .profilePicButton {
+    border: 0;
+    font-size: 1rem;
+    padding: 10px;
+    margin: auto 0;
+    cursor: pointer;
+  }
+  
+  .profilePic .uploadButton {
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+    border-radius: 0.5rem;
+  }
+  
+  .profilePic .uploadButton:hover {
+    scale: 1.01;
+    transition: 0.2s ease-in;
+    transform: translateY(-3px);
+    box-shadow: 3px 3px;
+    background-color: rgb(83, 83, 240);
+    color: white;
+  }
+  
+  .profilePic .resetButton {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Add smooth transition */
+  }
+  
+  .profilePic .resetButton:hover {
+    border: 1px solid black;
+  }
+  
+  .generalTabForm {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+  }
+  
+  .accountGeneralLabel {
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .accountGeneralInput {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .submitAccountGeneralForm {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+  }
+  
+  .submitAccountGeneralForm button {
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    border: 0;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submitAccountGeneralForm button:nth-child(1) {
+    background-color: rgba(0, 0, 255, 0.815);
+  }
+  
+  .submitAccountGeneralForm button:nth-child(2) {
+    background-color: rgba(255, 38, 0, 0.904);
+  }
+  

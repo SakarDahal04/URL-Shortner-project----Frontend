@@ -1,0 +1,13 @@
+.dynamic-btn {
+    padding: 0.5rem 0.8rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    background-color: #0f172a;
+    color: whitesmoke;
+    font-weight: 700;
+    width: 50%;
+    align-items: center;
+    cursor: pointer;
+    white-space: nowrap;
+    width: auto;
+}

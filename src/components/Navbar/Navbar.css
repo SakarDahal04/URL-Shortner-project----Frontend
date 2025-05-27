@@ -1,0 +1,37 @@
+.navbar-logged-in, .navbar-logged-out {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f172a;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    z-index: 10;
+    padding: 0.5rem 0.75rem;
+}
+
+.navbar-left .title {
+    font-size: 2rem;
+    text-decoration: None;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+}
+
+.nav-items {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}

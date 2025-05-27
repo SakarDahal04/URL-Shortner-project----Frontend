@@ -1,0 +1,10 @@
+.url-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 93vh;
+    width: 100%;
+    background-color: aliceblue;
+    gap: 2rem;
+}

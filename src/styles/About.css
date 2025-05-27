@@ -1,0 +1,62 @@
+.about-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2b2b2b;
+    margin-bottom: 24px;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 18px;
+    line-height: 1.7;
+  }
+  
+  .highlight {
+    color: #2a67d2;
+    font-weight: 600;
+  }
+  
+  .about-list {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-list li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+  }
+  
+  .about-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .about-links a {
+    color: #2a67d2;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .about-links a:hover {
+    color: #1e4698;
+  }
+  

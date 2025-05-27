@@ -1,0 +1,46 @@
+.hero-section  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background-color: aliceblue;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-self: center;
+    align-items: center;
+}
+/* 
+.url-shorten {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.url-shorten input {
+    border: 1px solid blue;
+    padding: 1rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.url-shorten input::placeholder {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.url-shorten button {
+    border: 1px solid blue;
+    color: brown;
+    background-color: rgba(0, 153, 255, 0.575);
+    padding: 1rem;
+    border-radius: 0 1rem 1rem 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.url-shorten button:hover {
+    background-color: rgba(0, 68, 255, 0.575);
+} */

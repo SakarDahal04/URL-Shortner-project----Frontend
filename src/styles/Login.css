@@ -1,0 +1,51 @@
+.form-box {
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    background-color: rgb(151, 252, 92);
+    border-radius: 1.5rem;
+}
+
+
+.login-form h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box label {
+    font-size: 1.5rem;
+}
+
+.input-box input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgot-password {
+    display: flex;
+    justify-content: end;
+    font-size: 1.2rem;
+}
