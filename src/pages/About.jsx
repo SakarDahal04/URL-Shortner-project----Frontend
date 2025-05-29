@@ -39,7 +39,7 @@ const About = () => {
         </p>
 
         <div className="about-links">
-          <a href="https://github.com/SakarDahal04/URL-Shortner-project" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/SakarDahal04/URL-Shortner-project----Frontend" target="_blank" rel="noopener noreferrer">
             📦 Frontend Repository
           </a>
           <a href="https://github.com/SakarDahal04/URL-Shortner-project" target="_blank" rel="noopener noreferrer">
