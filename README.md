@@ -13,29 +13,28 @@ This is the frontend part of a full-stack authentication system built using **Re
 
 ## 📁 Project Structure
 
-    src/
-    ├── components/ # Reusable UI components
-    ├── pages/      # Route-based pages (Login, Register, Profile, etc.)
-    ├── services/   # API calls
-    ├── App.js      # Root component with routes
-    ├── index.js    # Entry point
-    ├── context/    # Auth logic
+        src/
+        ├── components/ # Reusable UI components
+        ├── pages/      # Route-based pages (Login, Register, Profile, etc.)
+        ├── services/   # API calls
+        ├── App.js      # Root component with routes
+        ├── index.js    # Entry point
+        ├── context/    # Auth logic
 
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or later)
-- npm or yarn
+    - Node.js (v14 or later)
+    - npm or yarn
 
 ### Installation
 
 1. **Clone the Repository**
 
-
-git clone https://github.com/your-username/frontend-repo.git
-cd frontend-repo
+        git clone https://github.com/your-username/frontend-repo.git
+        cd frontend-repo
 
 
 2. **Install Dependencies**
@@ -52,17 +51,16 @@ cd frontend-repo
 
 4. **Run the Development Server**
 
-    npm run dev
+        npm run dev
 
     Frontend will be served at: http://localhost:5173
 
 🔗 **Backend API**
 
     Make sure the Django backend is running at the URL specified in .env (default: http://127.0.0.1:8000). 
-
     For backend setup, refer to the repository in same Github account:
 
-📦 **Backend repo** [Django Backend](https://github.com/SakarDahal04/URL-Shortner-project)
+📦 **Backend repo:**  [Django Backend](https://github.com/SakarDahal04/URL-Shortner-project)
 
 **Contact**
 
