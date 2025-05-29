@@ -55,12 +55,14 @@ This is the frontend part of a full-stack authentication system built using **Re
 
     Frontend will be served at: http://localhost:5173
 
-🔗 **Backend API**
+### 🔗 **Backend API**
 
-Make sure the Django backend is running at the URL specified in .env (default: http://127.0.0.1:8000). 
-For backend setup, refer to the repository in same Github account:
+    Make sure the Django backend is running at the URL specified in .env (default: http://127.0.0.1:8000). 
+    For backend setup, refer to the repository in same Github account:
 
-📦 **Backend repo:**  [Django Backend](https://github.com/SakarDahal04/URL-Shortner-project)
+### 📦 **Backend repo:**  
+    
+- Backend Repo: [Django Backend](https://github.com/SakarDahal04/URL-Shortner-project)
 
 **Contact**
 
