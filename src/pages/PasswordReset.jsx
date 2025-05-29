@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import "./../styles/Login.css";
-import Button from "../components/Button/button";
+import Button from "../components/Button/Button";
 import AuthContext from "../context/AuthContext";
 
 const PasswordReset = () => {

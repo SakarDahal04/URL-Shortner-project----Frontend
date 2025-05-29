@@ -4,7 +4,7 @@ import "./UrlList.css";
 import useGetShortenedList from "../../hooks/useGetShortenedList";
 import useRedirectWebsite from "../../hooks/useRedirectWebsite";
 import AuthContext from "../../context/AuthContext";
-import Button from "../Button/button";
+import Button from "../Button/Button";
 import useDeleteUrl from "../../hooks/useDeleteUrl";
 
 import Swal from "sweetalert2";

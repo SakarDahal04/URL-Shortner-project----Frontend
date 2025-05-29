@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Button from "../components/Button/button";
+import Button from "../components/Button/Button";
 import AuthContext from "../context/AuthContext";
 
 const PasswordResetChange = () => {

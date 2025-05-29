@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./../styles/Login.css";
 import { useState } from "react";
 import AuthContext from "../context/AuthContext";
-import Button from "../components/Button/button";
+import Button from "../components/Button/Button";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {

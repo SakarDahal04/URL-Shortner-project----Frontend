@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import AuthContext from "../context/AuthContext";
 import "./../styles/Login.css"
-import Button from "../components/Button/button";
+import Button from "../components/Button/Button";
 
 const Register = () => {
   const [registerEmail, setRegisterEmail] = useState("");
