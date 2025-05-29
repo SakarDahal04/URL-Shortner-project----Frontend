@@ -39,9 +39,9 @@ cd frontend-repo
 
 
 2. **Install Dependencies**
-    npm install
-    # or
-    yarn install
+        npm install
+        or
+        yarn install
 
 3. **Set Environment Variables**
 
