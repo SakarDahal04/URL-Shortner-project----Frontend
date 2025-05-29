@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./Navbar.css";
-import AuthContext from "../../context/AuthContext";
-import Button from "../Button/button";
+import AuthContext from "./../../context/AuthContext";
+import Button from "./../Button/button";
 
 const Navbar = () => {
   const { user, logoutUser } = useContext(AuthContext);
