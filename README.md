@@ -33,7 +33,7 @@ This is the frontend part of a full-stack authentication system built using **Re
 
 1. **Clone the Repository**
 
-        git clone https://github.com/your-username/frontend-repo.git
+        git clone https://github.com/SakarDahal04/URL-Shortner-project----Frontend.git
         cd frontend-repo
 
 
