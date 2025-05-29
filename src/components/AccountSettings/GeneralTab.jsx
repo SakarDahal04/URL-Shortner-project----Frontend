@@ -1,6 +1,6 @@
 import { useState, useEffect, useContext } from "react";
-import { createAxiosInstance } from "../../services/axiosConfig";
-import AuthContext from "../../context/AuthContext";
+import { createAxiosInstance } from "./../../services/axiosConfig";
+import AuthContext from "./../../context/AuthContext";
 import "./GeneralTab.css";
 import Swal from "sweetalert2";
 // import Swal from "sweetalert2";

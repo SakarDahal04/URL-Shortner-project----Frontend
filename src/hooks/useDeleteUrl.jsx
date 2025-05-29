@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import AuthContext from "../context/AuthContext";
-import { createAxiosInstance } from "../services/axiosConfig";
+import AuthContext from "./../context/AuthContext";
+import { createAxiosInstance } from "./../services/axiosConfig";
 
 const useDeleteUrl = (id) => {
   const { authTokens, setAuthTokens, setUser } = useContext(AuthContext);

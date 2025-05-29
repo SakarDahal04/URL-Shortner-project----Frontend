@@ -1,7 +1,7 @@
 import React from "react";
-import AuthContext from "../context/AuthContext";
+import AuthContext from "./../context/AuthContext";
 import { useContext } from "react";
-import { createAxiosInstance } from "../services/axiosConfig";
+import { createAxiosInstance } from "./../services/axiosConfig";
 
 const useRedirectWebsite = (id) => {
   const { authTokens, setAuthTokens, setUser, logoutUser } =

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./../styles/Home.css"
-import UrlShortner from '../components/UrlShortner/UrlShortner'
+import UrlShortner from './../components/UrlShortner/UrlShortner'
 
 const Home = () => {
   return (

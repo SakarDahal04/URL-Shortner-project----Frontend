@@ -1,7 +1,7 @@
 import React from 'react'
 import { useContext } from 'react'
-import AuthContext from '../context/AuthContext'
-import { createAxiosInstance } from '../services/axiosConfig'
+import AuthContext from './../context/AuthContext'
+import { createAxiosInstance } from './../services/axiosConfig'
 
 const useGetShortenedList = () => {
     const { authTokens, setAuthTokens, setUser, logoutUser } = useContext(AuthContext)

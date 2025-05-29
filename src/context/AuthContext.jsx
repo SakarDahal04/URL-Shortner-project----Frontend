@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { jwtDecode } from "jwt-decode";
 import { useNavigate } from "react-router-dom";
-import { createAxiosInstance } from "../services/axiosConfig";
+import { createAxiosInstance } from "./../services/axiosConfig";
 import Swal from "sweetalert2";
 
 const AuthContext = createContext();

@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useRef } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Swal from "sweetalert2";
-import { createAxiosInstance } from "../services/axiosConfig";
-import AuthContext from "../context/AuthContext";
+import { createAxiosInstance } from "./../services/axiosConfig";
+import AuthContext from "./../context/AuthContext";
 
 const ActivateAccount = () => {
   const { uidb64, token } = useParams();
