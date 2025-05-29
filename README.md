@@ -39,6 +39,7 @@ cd frontend-repo
 
 
 2. **Install Dependencies**
+
         npm install
         or
         yarn install
@@ -50,19 +51,21 @@ cd frontend-repo
         VITE_API_URL="http://127.0.0.1:8000" # The base URL for the backend
 
 4. **Run the Development Server**
+
     npm run dev
 
     Frontend will be served at: http://localhost:5173
 
 🔗 **Backend API**
+
     Make sure the Django backend is running at the URL specified in .env (default: http://127.0.0.1:8000). 
+
     For backend setup, refer to the repository in same Github account:
 
-## **📦 Backend repo**
-
-    Backend Repo: [Django Backend](https://github.com/SakarDahal04/URL-Shortner-project)
+📦 **Backend repo** [Django Backend](https://github.com/SakarDahal04/URL-Shortner-project)
 
 **Contact**
+
     Feel free to contact with me via [LinkedIn](https://www.linkedin.com/in/sakar-dahal-30a560277/)
 
 This project is a work in progress, and I'm continuously learning and improving. Contributions and feedback are welcome!
